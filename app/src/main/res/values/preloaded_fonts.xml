@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta</item>
+        <item>@font/antic_slab</item>
+        <item>@font/anton</item>
+        <item>@font/athiti_light</item>
+        <item>@font/codystar_light</item>
+        <item>@font/dorsa</item>
+        <item>@font/duru_sans</item>
+        <item>@font/economica_bold</item>
+        <item>@font/exo_extralight</item>
+        <item>@font/orbitron_medium</item>
+        <item>@font/quantico</item>
+        <item>@font/questrial</item>
+        <item>@font/rationale</item>
+        <item>@font/roboto_mono_light</item>
+        <item>@font/unica_one</item>
+        <item>@font/wire_one</item>
+    </array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.axotix.aurasync.SenseActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:paddingRight="20dp"
+        android:theme="@style/AppTheme"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/darker_gray">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="53dp"
+                android:layout_height="41dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:contentDescription="logoWrap"
+                android:scaleType="fitStart"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/logoLabel"
+                android:layout_width="223dp"
+                android:layout_height="34dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:text="AuraSync"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/logo"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="AuraSync"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        layout="@layout/content_sense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="97dp"/>
+
+</android.support.design.widget.CoordinatorLayout>
